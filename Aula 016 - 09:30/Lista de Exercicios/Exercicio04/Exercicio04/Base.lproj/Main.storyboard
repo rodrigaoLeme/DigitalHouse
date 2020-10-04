@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Exercicio04" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="36F-bD-VRs">
+                                <rect key="frame" x="20" y="384" width="374" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="9qE-vU-IFj"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8mR-tZ-n9b">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="name" id="Jy8-OU-Yq7" customClass="NameCollectionViewCell" customModule="Exercicio04" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="4.5" width="119" height="119"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Xz8-7i-KDN">
+                                            <rect key="frame" x="0.0" y="0.0" width="119" height="119"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BzA-Pe-DwD">
+                                                    <rect key="frame" x="0.0" y="0.0" width="119" height="119"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="119" id="ZK4-Qe-4zf"/>
+                                                        <constraint firstAttribute="width" constant="119" id="rTH-Ww-Ulz"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzY-TS-TLs">
+                                                    <rect key="frame" x="5" y="49" width="109" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="Xlf-Uc-mad"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="BzA-Pe-DwD" secondAttribute="bottom" id="2en-bx-GZt"/>
+                                                <constraint firstItem="xzY-TS-TLs" firstAttribute="centerY" secondItem="Xz8-7i-KDN" secondAttribute="centerY" id="7EO-6p-kc5"/>
+                                                <constraint firstItem="BzA-Pe-DwD" firstAttribute="leading" secondItem="Xz8-7i-KDN" secondAttribute="leading" id="Fe2-vV-eBr"/>
+                                                <constraint firstAttribute="trailing" secondItem="BzA-Pe-DwD" secondAttribute="trailing" id="Lr5-b8-B5T"/>
+                                                <constraint firstAttribute="trailing" secondItem="xzY-TS-TLs" secondAttribute="trailing" constant="5" id="WCZ-iL-hxY"/>
+                                                <constraint firstItem="xzY-TS-TLs" firstAttribute="leading" secondItem="Xz8-7i-KDN" secondAttribute="leading" constant="5" id="Zpb-GS-PfW"/>
+                                                <constraint firstItem="BzA-Pe-DwD" firstAttribute="top" secondItem="Xz8-7i-KDN" secondAttribute="top" id="aL7-zU-9wA"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblName" destination="xzY-TS-TLs" id="Box-90-sXJ"/>
+                                            <outlet property="viwFundo" destination="BzA-Pe-DwD" id="38d-cd-IMa"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="36F-bD-VRs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="CVh-VZ-npm"/>
+                            <constraint firstItem="36F-bD-VRs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cgh-nK-THC"/>
+                            <constraint firstItem="36F-bD-VRs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mFq-nD-59e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="36F-bD-VRs" secondAttribute="trailing" constant="20" id="s0B-eR-0WG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="clvList" destination="36F-bD-VRs" id="pgp-Q4-eIZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+</document>

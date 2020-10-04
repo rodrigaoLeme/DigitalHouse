@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pnH-Ec-53w">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Exercicio03" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="S4l-AN-PSq">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="uzj-Io-JaX">
+                                    <size key="itemSize" width="196" height="143"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CarCollectionViewCell" id="H4M-oK-skg" customClass="CarCollectionViewCell" customModule="Exercicio03" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="196" height="143"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="srV-3d-Mf8">
+                                            <rect key="frame" x="0.0" y="0.0" width="196" height="143"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5yM-j6-ggI">
+                                                    <rect key="frame" x="12" y="8" width="172" height="98"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAy-oc-Awd">
+                                                    <rect key="frame" x="8" y="114" width="180" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="Qdu-Ug-m4G"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="FAy-oc-Awd" secondAttribute="bottom" constant="8" id="BMS-qo-pxN"/>
+                                                <constraint firstItem="5yM-j6-ggI" firstAttribute="top" secondItem="srV-3d-Mf8" secondAttribute="top" constant="8" id="Bql-wE-vNw"/>
+                                                <constraint firstAttribute="trailing" secondItem="5yM-j6-ggI" secondAttribute="trailing" constant="12" id="aDK-vD-g7M"/>
+                                                <constraint firstItem="FAy-oc-Awd" firstAttribute="leading" secondItem="srV-3d-Mf8" secondAttribute="leading" constant="8" id="ah8-ZR-lBo"/>
+                                                <constraint firstAttribute="trailing" secondItem="FAy-oc-Awd" secondAttribute="trailing" constant="8" id="pHX-4K-w8S"/>
+                                                <constraint firstItem="FAy-oc-Awd" firstAttribute="top" secondItem="5yM-j6-ggI" secondAttribute="bottom" constant="8" id="pmP-1c-cPM"/>
+                                                <constraint firstItem="5yM-j6-ggI" firstAttribute="leading" secondItem="srV-3d-Mf8" secondAttribute="leading" constant="12" id="w9x-5n-o8v"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="196" height="143"/>
+                                        <connections>
+                                            <outlet property="imgCar" destination="5yM-j6-ggI" id="nP5-fx-SjG"/>
+                                            <outlet property="lblName" destination="FAy-oc-Awd" id="zCe-ej-RdX"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S4l-AN-PSq" secondAttribute="trailing" id="1Uj-BT-r7d"/>
+                            <constraint firstItem="S4l-AN-PSq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4PZ-VX-tsY"/>
+                            <constraint firstItem="S4l-AN-PSq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Hbd-Vj-Zec"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S4l-AN-PSq" secondAttribute="bottom" id="wFE-EF-gO8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FiQ-Ij-Ecw"/>
+                    <connections>
+                        <outlet property="clvCar" destination="S4l-AN-PSq" id="7Kc-qG-tO3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="118.52678571428571"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BHn-bd-Vy2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pnH-Ec-53w" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7vv-Vp-h3x">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="R14-UG-DC1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EoK-tX-CmU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+</document>
