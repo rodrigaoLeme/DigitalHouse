@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96A762322535F79100090DDF /* backgroundHotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A762312535F79100090DDF /* backgroundHotel.jpg */; };
+		96A762352536124800090DDF /* HotelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A762342536124800090DDF /* HotelDetailViewController.swift */; };
+		96A762372536125500090DDF /* HotelDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A762362536125500090DDF /* HotelDetail.storyboard */; };
+		96A7BBC225362A1A00F65884 /* marAtlantico0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A7BBB625362A1900F65884 /* marAtlantico0.jpg */; };
+		96A7BBC425362A1A00F65884 /* jdBotanico2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A7BBB825362A1900F65884 /* jdBotanico2.jpg */; };
+		96A7BBC525362A1A00F65884 /* marAtlantico3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A7BBB925362A1900F65884 /* marAtlantico3.jpg */; };
+		96A7BBC625362A1A00F65884 /* jdBotanico1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A7BBBA25362A1A00F65884 /* jdBotanico1.jpg */; };
+		96A7BBC725362A1A00F65884 /* parqueDasFlores1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A7BBBB25362A1A00F65884 /* parqueDasFlores1.jpg */; };
+		96A7BBC825362A1A00F65884 /* parqueDasFlores2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A7BBBC25362A1A00F65884 /* parqueDasFlores2.jpg */; };
+		96A7BBC925362A1A00F65884 /* parqueDasFlores0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A7BBBD25362A1A00F65884 /* parqueDasFlores0.jpg */; };
+		96A7BBCA25362A1A00F65884 /* parqueDasFlores3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A7BBBE25362A1A00F65884 /* parqueDasFlores3.jpg */; };
+		96A7BBCB25362A1A00F65884 /* marAtlantico2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A7BBBF25362A1A00F65884 /* marAtlantico2.jpg */; };
+		96A7BBCC25362A1A00F65884 /* jdBotanico3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A7BBC025362A1A00F65884 /* jdBotanico3.jpg */; };
+		96A7BBCD25362A1A00F65884 /* marAtlantico1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A7BBC125362A1A00F65884 /* marAtlantico1.jpg */; };
+		96A7BBD02536429F00F65884 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A7BBCF2536429F00F65884 /* PhotoCollectionViewCell.swift */; };
+		96A7BBD22536549E00F65884 /* jdBotanico0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96A7BBD12536549E00F65884 /* jdBotanico0.jpg */; };
+		96EFCE1C2530A272008BC434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EFCE1B2530A272008BC434 /* AppDelegate.swift */; };
+		96EFCE1E2530A272008BC434 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EFCE1D2530A272008BC434 /* SceneDelegate.swift */; };
+		96EFCE202530A272008BC434 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EFCE1F2530A272008BC434 /* ViewController.swift */; };
+		96EFCE232530A272008BC434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EFCE212530A272008BC434 /* Main.storyboard */; };
+		96EFCE252530A274008BC434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EFCE242530A274008BC434 /* Assets.xcassets */; };
+		96EFCE282530A274008BC434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EFCE262530A274008BC434 /* LaunchScreen.storyboard */; };
+		96EFCE312530A3E2008BC434 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EFCE302530A3E2008BC434 /* Hotel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96A762312535F79100090DDF /* backgroundHotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundHotel.jpg; sourceTree = "<group>"; };
+		96A762342536124800090DDF /* HotelDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetailViewController.swift; sourceTree = "<group>"; };
+		96A762362536125500090DDF /* HotelDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HotelDetail.storyboard; sourceTree = "<group>"; };
+		96A7BBB625362A1900F65884 /* marAtlantico0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marAtlantico0.jpg; sourceTree = "<group>"; };
+		96A7BBB825362A1900F65884 /* jdBotanico2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jdBotanico2.jpg; sourceTree = "<group>"; };
+		96A7BBB925362A1900F65884 /* marAtlantico3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marAtlantico3.jpg; sourceTree = "<group>"; };
+		96A7BBBA25362A1A00F65884 /* jdBotanico1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jdBotanico1.jpg; sourceTree = "<group>"; };
+		96A7BBBB25362A1A00F65884 /* parqueDasFlores1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parqueDasFlores1.jpg; sourceTree = "<group>"; };
+		96A7BBBC25362A1A00F65884 /* parqueDasFlores2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parqueDasFlores2.jpg; sourceTree = "<group>"; };
+		96A7BBBD25362A1A00F65884 /* parqueDasFlores0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parqueDasFlores0.jpg; sourceTree = "<group>"; };
+		96A7BBBE25362A1A00F65884 /* parqueDasFlores3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parqueDasFlores3.jpg; sourceTree = "<group>"; };
+		96A7BBBF25362A1A00F65884 /* marAtlantico2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marAtlantico2.jpg; sourceTree = "<group>"; };
+		96A7BBC025362A1A00F65884 /* jdBotanico3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jdBotanico3.jpg; sourceTree = "<group>"; };
+		96A7BBC125362A1A00F65884 /* marAtlantico1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marAtlantico1.jpg; sourceTree = "<group>"; };
+		96A7BBCF2536429F00F65884 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		96A7BBD12536549E00F65884 /* jdBotanico0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jdBotanico0.jpg; sourceTree = "<group>"; };
+		96EFCE182530A272008BC434 /* DesafioDatePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioDatePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EFCE1B2530A272008BC434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96EFCE1D2530A272008BC434 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96EFCE1F2530A272008BC434 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96EFCE222530A272008BC434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96EFCE242530A274008BC434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96EFCE272530A274008BC434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96EFCE292530A274008BC434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96EFCE302530A3E2008BC434 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96EFCE152530A272008BC434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96A762332536122300090DDF /* HotelDetail */ = {
+			isa = PBXGroup;
+			children = (
+				96A762342536124800090DDF /* HotelDetailViewController.swift */,
+				96A762362536125500090DDF /* HotelDetail.storyboard */,
+			);
+			path = HotelDetail;
+			sourceTree = "<group>";
+		};
+		96A7BBCE25362A3000F65884 /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				96A7BBD12536549E00F65884 /* jdBotanico0.jpg */,
+				96A7BBBA25362A1A00F65884 /* jdBotanico1.jpg */,
+				96A7BBB825362A1900F65884 /* jdBotanico2.jpg */,
+				96A7BBC025362A1A00F65884 /* jdBotanico3.jpg */,
+				96A7BBB625362A1900F65884 /* marAtlantico0.jpg */,
+				96A7BBC125362A1A00F65884 /* marAtlantico1.jpg */,
+				96A7BBBF25362A1A00F65884 /* marAtlantico2.jpg */,
+				96A7BBB925362A1900F65884 /* marAtlantico3.jpg */,
+				96A7BBBD25362A1A00F65884 /* parqueDasFlores0.jpg */,
+				96A7BBBB25362A1A00F65884 /* parqueDasFlores1.jpg */,
+				96A7BBBC25362A1A00F65884 /* parqueDasFlores2.jpg */,
+				96A7BBBE25362A1A00F65884 /* parqueDasFlores3.jpg */,
+			);
+			name = Imgs;
+			sourceTree = "<group>";
+		};
+		96EFCE0F2530A272008BC434 = {
+			isa = PBXGroup;
+			children = (
+				96EFCE1A2530A272008BC434 /* DesafioDatePickerView */,
+				96EFCE192530A272008BC434 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96EFCE192530A272008BC434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96EFCE182530A272008BC434 /* DesafioDatePickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96EFCE1A2530A272008BC434 /* DesafioDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				96A762332536122300090DDF /* HotelDetail */,
+				96EFCE1B2530A272008BC434 /* AppDelegate.swift */,
+				96EFCE1D2530A272008BC434 /* SceneDelegate.swift */,
+				96EFCE302530A3E2008BC434 /* Hotel.swift */,
+				96A7BBCF2536429F00F65884 /* PhotoCollectionViewCell.swift */,
+				96EFCE1F2530A272008BC434 /* ViewController.swift */,
+				96EFCE212530A272008BC434 /* Main.storyboard */,
+				96EFCE242530A274008BC434 /* Assets.xcassets */,
+				96EFCE262530A274008BC434 /* LaunchScreen.storyboard */,
+				96EFCE292530A274008BC434 /* Info.plist */,
+				96A762312535F79100090DDF /* backgroundHotel.jpg */,
+				96A7BBCE25362A3000F65884 /* Imgs */,
+			);
+			path = DesafioDatePickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96EFCE172530A272008BC434 /* DesafioDatePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96EFCE2C2530A274008BC434 /* Build configuration list for PBXNativeTarget "DesafioDatePickerView" */;
+			buildPhases = (
+				96EFCE142530A272008BC434 /* Sources */,
+				96EFCE152530A272008BC434 /* Frameworks */,
+				96EFCE162530A272008BC434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioDatePickerView;
+			productName = DesafioDatePickerView;
+			productReference = 96EFCE182530A272008BC434 /* DesafioDatePickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96EFCE102530A272008BC434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Rodrigo Leme";
+				TargetAttributes = {
+					96EFCE172530A272008BC434 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 96EFCE132530A272008BC434 /* Build configuration list for PBXProject "DesafioDatePickerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96EFCE0F2530A272008BC434;
+			productRefGroup = 96EFCE192530A272008BC434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96EFCE172530A272008BC434 /* DesafioDatePickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96EFCE162530A272008BC434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A7BBC925362A1A00F65884 /* parqueDasFlores0.jpg in Resources */,
+				96A7BBCB25362A1A00F65884 /* marAtlantico2.jpg in Resources */,
+				96EFCE282530A274008BC434 /* LaunchScreen.storyboard in Resources */,
+				96A7BBCD25362A1A00F65884 /* marAtlantico1.jpg in Resources */,
+				96A7BBC225362A1A00F65884 /* marAtlantico0.jpg in Resources */,
+				96EFCE252530A274008BC434 /* Assets.xcassets in Resources */,
+				96A762322535F79100090DDF /* backgroundHotel.jpg in Resources */,
+				96A7BBC625362A1A00F65884 /* jdBotanico1.jpg in Resources */,
+				96A7BBC725362A1A00F65884 /* parqueDasFlores1.jpg in Resources */,
+				96A7BBCA25362A1A00F65884 /* parqueDasFlores3.jpg in Resources */,
+				96A7BBC525362A1A00F65884 /* marAtlantico3.jpg in Resources */,
+				96A7BBD22536549E00F65884 /* jdBotanico0.jpg in Resources */,
+				96A7BBC425362A1A00F65884 /* jdBotanico2.jpg in Resources */,
+				96A762372536125500090DDF /* HotelDetail.storyboard in Resources */,
+				96A7BBC825362A1A00F65884 /* parqueDasFlores2.jpg in Resources */,
+				96A7BBCC25362A1A00F65884 /* jdBotanico3.jpg in Resources */,
+				96EFCE232530A272008BC434 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96EFCE142530A272008BC434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EFCE202530A272008BC434 /* ViewController.swift in Sources */,
+				96EFCE1C2530A272008BC434 /* AppDelegate.swift in Sources */,
+				96A762352536124800090DDF /* HotelDetailViewController.swift in Sources */,
+				96EFCE312530A3E2008BC434 /* Hotel.swift in Sources */,
+				96EFCE1E2530A272008BC434 /* SceneDelegate.swift in Sources */,
+				96A7BBD02536429F00F65884 /* PhotoCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96EFCE212530A272008BC434 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96EFCE222530A272008BC434 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96EFCE262530A274008BC434 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96EFCE272530A274008BC434 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96EFCE2A2530A274008BC434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96EFCE2B2530A274008BC434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96EFCE2D2530A274008BC434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2M8GEZ56SZ;
+				INFOPLIST_FILE = DesafioDatePickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rl.DesafioDatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96EFCE2E2530A274008BC434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2M8GEZ56SZ;
+				INFOPLIST_FILE = DesafioDatePickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rl.DesafioDatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96EFCE132530A272008BC434 /* Build configuration list for PBXProject "DesafioDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96EFCE2A2530A274008BC434 /* Debug */,
+				96EFCE2B2530A274008BC434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96EFCE2C2530A274008BC434 /* Build configuration list for PBXNativeTarget "DesafioDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96EFCE2D2530A274008BC434 /* Debug */,
+				96EFCE2E2530A274008BC434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96EFCE102530A272008BC434 /* Project object */;
+}
